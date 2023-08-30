@@ -1,0 +1,25 @@
+{
+    "name": "studiomitte/remove-yoast-comment",
+    "type": "typo3-cms-extension",
+    "description": "Remove the hardcoded header comment of EXT:yoast_seo added to the frontend",
+    "authors": [
+        {
+            "name": "Georg Ringer",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "yoast-seo-for-typo3/yoast_seo": "^7 || ^8 || ^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "StudioMitte\\RemoveYoastComment\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "remove_yoast_comment"
+        }
+    }
+}
