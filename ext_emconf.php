@@ -8,11 +8,11 @@ $EM_CONF[$_EXTKEY] = [
     'author_email' => 'office@studiomitte.com',
     'author_company' => 'StudioMitte',
     'state' => 'stable',
-    'version' => '1.0.0',
+    'version' => '1.0.1',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-12.4.99',
-            'yoast_seo' => '8.0.0-9.9.99'
+            'typo3' => '10.4.0-13.4.99',
+            'yoast_seo' => '8.0.0-10.9.99'
         ],
         'conflicts' => [
         ],
