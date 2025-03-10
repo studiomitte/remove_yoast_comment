@@ -10,7 +10,7 @@
     ],
     "license": "GPL-2.0-or-later",
     "require": {
-        "yoast-seo-for-typo3/yoast_seo": "^7 || ^8 || ^9 || ^10"
+        "yoast-seo-for-typo3/yoast_seo": "^7 || ^8 || ^9 || ^10 || ^11"
     },
     "autoload": {
         "psr-4": {
